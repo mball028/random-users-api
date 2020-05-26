@@ -1,0 +1,17 @@
+{
+  "name": "random-user-api",
+  "version": "1.0.0",
+  "description": "My own api, similar to the random users api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Michael Ball",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "random-seed": "^0.3.0"
+  }
+}
